@@ -7,9 +7,9 @@ h1{
   background-color: white;
   border-radius: 25px;
 }
-p{
+.result{
   background-color: blue;
-  color: green;
+  color: whitesmoke;
   border-radius: 15px;
   width: 300px;
   height: 20px;

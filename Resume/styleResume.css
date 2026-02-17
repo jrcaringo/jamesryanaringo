@@ -9,10 +9,7 @@ body{
   font-family: "Helvetica", sans-serif;
 }
 .myImage{
-  margin-right: 20px;
-  margin-top: 15px;
-  width: 100px;
+  width: 25%;
   position: relative;
-  z-index: 2;
   float: right;
 }

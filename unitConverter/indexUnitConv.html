@@ -2,16 +2,18 @@
 <html>
   <head>
     <link rel="stylesheet" href="styleUnitConv.css">
+    <title>James Ryan Aringo Unit Converter</title>
   </head>
   <body>
-    <h1>Header</h1>
-     <input type="number" placeholder="Enter number..." id="userInput"/>
-     <select id="unit">
-      <option value="milesToKm">Miles to Kilometers</option>
-      <option value="kmToMiles">Kilometers to Miles</option>
-     </select>
-     <button onclick="convert()">Covert</button>
-    <p>Result: <span id="resultElement">0</span></p>
+    <h1>Converter</h1>
+    <input type="number" placeholder="Enter number..." id="userInput"/>
+    <select id="unit">
+    <option value="milesToKm">Miles to Kilometers</option>
+    <option value="kmToMiles">Kilometers to Miles</option>
+    </select>
+    <button onclick="convert()">Convert</button>
+    <p class="result">Result: <span id="resultElement">0</span></p>
+    <p><a href="../index.html">Back to homepage</a></p>
     <script src="scriptUnitConv.js"></script>
   </body>
 </html>
