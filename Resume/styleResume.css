@@ -1,0 +1,18 @@
+.header{
+  text-align: left;
+  color: #5A2D0C;
+  background-color: #FFEBCD;
+  padding: 20px;
+  font-weight: bold;
+}
+body{
+  font-family: "Helvetica", sans-serif;
+}
+.myImage{
+  margin-right: 20px;
+  margin-top: 15px;
+  width: 100px;
+  position: relative;
+  z-index: 2;
+  float: right;
+}
