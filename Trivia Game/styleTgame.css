@@ -1,0 +1,32 @@
+body{
+  font-family: "Arial", sans-serif;
+  background: linear-gradient();
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.container{
+  background: white;
+  border-radius: 25px;
+  width: 90%;
+}
+button{
+  padding: 5px;
+  margin: 10px;
+  background-color: aqua;
+  color: brown;
+  border: 300px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: cornflowerblue;
+}
+#result{
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: medium;
+  color: teal;
+}
